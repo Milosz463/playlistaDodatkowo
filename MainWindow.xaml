@@ -15,7 +15,7 @@
             <ColumnDefinition/>
             <ColumnDefinition/>
             <ColumnDefinition/>
-          
+
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition/>
@@ -30,6 +30,6 @@
         <TextBlock Foreground="#61D918" Grid.Column="3" Grid.Row="2">11 utworów</TextBlock>
         <TextBlock Foreground="#61D918" Grid.Column="4" Grid.Row="2">2018</TextBlock>
         <TextBlock Foreground="#61D918" Grid.Column="1" Grid.Row="3">11000102</TextBlock>
-        <Button Background="#61D918" Grid.Column="2" Grid.Row="3" Margin="30">Pobierz</Button>
+        <Button Background="#61D918" Grid.Column="2" Grid.Row="2" Margin="10,92,50,76" RenderTransformOrigin="0.48,0.362" Grid.RowSpan="2">Pobierz</Button>
     </Grid>
 </Window>
