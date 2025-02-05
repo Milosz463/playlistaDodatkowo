@@ -1,9 +1,9 @@
-<Window x:Class="WpfApp3.MainWindow"
+<Window x:Class="WpfApp14.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:WpfApp3"
+        xmlns:local="clr-namespace:WpfApp14"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800"
         Background="SeaGreen">
@@ -23,13 +23,19 @@
             <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <Button Click="Button_Click" Grid.Row="1" Margin="20">Poprzednie</Button>
-        <Button Click="Button_Click_1" Grid.Column="5" Grid.Row="1" Margin="20">Nastepne</Button>
+        <Button Click="Button_Click" Grid.Row="1" Margin="20">
+            <Image Source="obraz3.png"/>
+        </Button>
+        <Button Click="Button_Click_1" Grid.Column="5" Grid.Row="1" Margin="20">
+            <Image Source="obraz2.png"/>
+        </Button>
         <TextBlock FontSize="50" Foreground="White" Grid.Column="3" Grid.ColumnSpan="5">Gorillaz</TextBlock>
         <TextBlock FontStyle="Italic" Foreground="White" FontSize="30" Grid.Column="3" Grid.Row="1" Grid.ColumnSpan="4" >"The now now"</TextBlock>
         <TextBlock Foreground="#61D918" Grid.Column="3" Grid.Row="2">11 utworów</TextBlock>
         <TextBlock Foreground="#61D918" Grid.Column="4" Grid.Row="2">2018</TextBlock>
         <TextBlock Foreground="#61D918" Grid.Column="1" Grid.Row="3">11000102</TextBlock>
         <Button Background="#61D918" Grid.Column="2" Grid.Row="2" Margin="10,92,50,76" RenderTransformOrigin="0.48,0.362" Grid.RowSpan="2">Pobierz</Button>
+        <Image Source="obraz.png" Grid.Column="2" Grid.Row="1"/>
     </Grid>
 </Window>
+
