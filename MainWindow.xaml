@@ -37,6 +37,9 @@
         <TextBlock x:Name="IloscPobranTB" Foreground="#61D918" Grid.Column="1" Grid.Row="3">pobrania</TextBlock>
         <Button Click="Button_Pobierz" Background="#61D918" Grid.Column="2" Grid.Row="2" Margin="10,92,50,76" RenderTransformOrigin="0.48,0.362" Grid.RowSpan="2">Pobierz</Button>
         <Image Source="obraz.png" Grid.Column="1" Grid.Row="1"/>
+        <Button Background="#61D918" Grid.Column="4" Grid.Row="3" Height="30" Width="100">Dodaj album</Button>
+        
     </Grid>
 </Window>
+
 
